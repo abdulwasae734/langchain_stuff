@@ -13,5 +13,5 @@ messages = [
     HumanMessage("yo whats up bro")
 ]
 
-
+print()
 print(model.invoke(messages).pretty_print())
